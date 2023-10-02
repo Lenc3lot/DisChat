@@ -44,8 +44,11 @@ function MajMsg(){
         success: function(data,statut){
             //console.log(data);
             let obj = JSON.parse(data);
+
             console.log(obj);
+            
             zone.value = "";
+            
             obj.forEach(element => {
                 console.log(element["Heure"]);
                 console.log(element["Pseudo"]);

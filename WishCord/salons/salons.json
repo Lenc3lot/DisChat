@@ -1,0 +1,22 @@
+[
+    {
+        "chemin": "./salons/test.txt",
+        "nom": "Chèvre"
+    },
+    {
+        "chemin": "./salons/gen.txt",
+        "nom": "General"
+    },
+    {
+        "chemin": "./salons/test.txt",
+        "nom": "Test"
+    },
+    {
+        "chemin": "./salons/test.txt",
+        "nom": "Poulet"
+    },
+    {
+        "chemin": "./salons/test.txt",
+        "nom": "Test"
+    }
+]

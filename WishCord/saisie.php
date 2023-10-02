@@ -29,7 +29,7 @@
 
     <button name="Envoyer" onclick="EnvoyerMsg()">Envoyer le msg</button>
 
-    <textarea id="ZnChat" class="znsaisie" readonly></textarea>
+    <textarea id="ZnChat" class="znsaisie" readonly style="width: 878px;height: 391px;"></textarea>
     
 </body>
 

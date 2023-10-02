@@ -22,8 +22,6 @@ $MsgFile = unserialize(file_get_contents($file));
 
 $MsgFile[] = $msgRecup;
 
-
-
 file_put_contents($file,serialize($MsgFile));
 
 //header('location: ./saisie.php');
