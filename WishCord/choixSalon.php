@@ -13,6 +13,11 @@
 
 <body>
     <header>
+    <?php 
+        if(isset($_COOKIE["usrnm"])){
+            echo "<h1> Bonjour ".$_COOKIE["usrnm"]."</h1>";
+        }
+    ?>
     <ul id="menu">
         <li><a href=#> Acceuil </a></li>
         <li><a href=#>Créer un compte</a></li>

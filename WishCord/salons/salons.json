@@ -1,22 +1,26 @@
 [
     {
-        "chemin": "./salons/test.txt",
-        "nom": "Chèvre"
+        "chemin": ".\/salons\/test.txt",
+        "nom": "Ch\u00e8vre"
     },
     {
-        "chemin": "./salons/gen.txt",
+        "chemin": ".\/salons\/gen.txt",
         "nom": "General"
     },
     {
-        "chemin": "./salons/test.txt",
-        "nom": "Test"
+        "chemin": ".\/salons\/test.txt",
+        "nom": "test"
     },
     {
-        "chemin": "./salons/test.txt",
+        "chemin": ".\/salons\/test.txt",
         "nom": "Poulet"
     },
     {
-        "chemin": "./salons/test.txt",
-        "nom": "Test"
+        "chemin": ".\/salons\/Bob.txt",
+        "nom": "Bob"
+    },
+    {
+        "chemin": ".\/salons\/JeanJesus.txt",
+        "nom": "JeanJesus"
     }
 ]
