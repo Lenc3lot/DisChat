@@ -16,11 +16,16 @@
     <?php 
         if(isset($_COOKIE["usrnm"])){
             echo "<h1> Bonjour ".$_COOKIE["usrnm"]."</h1>";
-        }
+        
     ?>
     <ul id="menu">
         <li><a href=#> Acceuil </a></li>
-        <li><a href=#>Créer un compte</a></li>
+        <?php if(!isset($_COOKIE["usrnm"])){ ?>
+            <li><a href=#>Créer un compte</a></li> 
+            <li><a href="./connexionPage.php">Se Connecter</a></li>
+            <?php } else { ?>
+        <li><a href="./killCookie.php">Déconnexion</a><li><?php } ?>
+       
     </ul>
     </header>
 
@@ -30,13 +35,18 @@
     $listserv = "./salons/salons.json";
     $data = file_get_contents($listserv);
     $datas = json_decode($data,true);
+
     foreach ($datas as $element) {
         echo "<li> <a href = '".$element["chemin"]."'>".$element["nom"]."</a> </li>";
     }   
     ?>
+    
     <li onclick="AskChan()"> Rejoindre un salon </li>
     </ul> 
 
+    <?php }else{
+        header("Location: ./connexionPage.php?CodeErr=2");
+    } ?>
     
 </body>
 </html>

@@ -1,32 +1,12 @@
 [
     {
-        "pseudo": "Marcel",
-        "mdp": "85a6567b132f6d46e00a756dbeaa552aef1da5c5619aedf1f268b14124bc2348",
-        "listeServ": ""
+        "pseudo": "Bat",
+        "mdp": "52588ed133b7e741223df6f3036210c560d9c0cc9ad77553da407f729fb3bbd9",
+        "listeServ": []
     },
     {
-        "pseudo": "Bob",
-        "mdp": "85a6567b132f6d46e00a756dbeaa552aef1da5c5619aedf1f268b14124bc2348",
-        "listeServ": ""
-    },
-    {
-        "pseudo": "Gerard",
-        "mdp": "85a6567b132f6d46e00a756dbeaa552aef1da5c5619aedf1f268b14124bc2348",
-        "listeServ": ""
-    },
-    {
-        "pseudo": "Marc",
-        "mdp": "85a6567b132f6d46e00a756dbeaa552aef1da5c5619aedf1f268b14124bc2348",
-        "listeServ": ""
-    },
-    {
-        "pseudo": "Marco",
-        "mdp": "8e9fe2aa5617edbc90f4729ecd0e7b3a02574a8fa8acb9b22902c74fdd10a62e",
-        "listeServ": ""
-    },
-    {
-        "pseudo": "Marcello",
-        "mdp": "8e9fe2aa5617edbc90f4729ecd0e7b3a02574a8fa8acb9b22902c74fdd10a62e",
-        "listeServ": ""
+        "pseudo": "Rox",
+        "mdp": "2e2c55fae24579196a8483ea611cac0f568ca875523263bbe21d6c23c350bd21",
+        "listeServ": []
     }
 ]

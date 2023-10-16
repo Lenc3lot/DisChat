@@ -17,8 +17,9 @@ foreach ($data as $element) {
 if($test == true){
     $newUser["pseudo"] = $usrn;
     $newUser["mdp"] = hash("sha256",$a.$pswd);
-    $newUser["listeServ"] ="";
+    $newUser["listeServ"] = [];
     $data[]=$newUser;
+    
 }else{
     echo "pseudo existant";
 }

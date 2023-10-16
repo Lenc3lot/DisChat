@@ -65,4 +65,4 @@ function MajMsg(){
     })
 }
 
-setInterval(MajMsg,1000);
+setInterval(MajMsg,500);    
