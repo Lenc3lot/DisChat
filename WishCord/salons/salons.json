@@ -1,1 +1,22 @@
-[{"chemin":".\/salons\/SalonDeBob.txt","nom":"SalonDeBob"},{"chemin":".\/salons\/test.txt","nom":"test"},{"chemin":".\/salons\/test1.txt","nom":"test1"}]
+[
+    {
+        "chemin": ".\/salons\/SalonDeBob.txt",
+        "nom": "SalonDeBob"
+    },
+    {
+        "chemin": ".\/salons\/test.txt",
+        "nom": "test"
+    },
+    {
+        "chemin": ".\/salons\/test1.txt",
+        "nom": "test1"
+    },
+    {
+        "chemin": ".\/salons\/Coucou.txt",
+        "nom": "Coucou"
+    },
+    {
+        "chemin": ".\/salons\/Bonjour Les Gens.txt",
+        "nom": "Bonjour Les Gens"
+    }
+]

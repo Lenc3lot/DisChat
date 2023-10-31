@@ -2,11 +2,11 @@
     {
         "pseudo": "Bat",
         "mdp": "52588ed133b7e741223df6f3036210c560d9c0cc9ad77553da407f729fb3bbd9",
-        "listeServ": []
+        "listeServ": ["elem1","ddd"]
     },
     {
         "pseudo": "Rox",
         "mdp": "2e2c55fae24579196a8483ea611cac0f568ca875523263bbe21d6c23c350bd21",
-        "listeServ": []
+        "listeServ": ["test"]
     }
 ]
