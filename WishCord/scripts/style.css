@@ -18,6 +18,12 @@
   text-decoration: none;
 }
 
+#menu>li>a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 section{
   display: flex;
 }
@@ -26,7 +32,4 @@ section{
   width: 630px;
   height: 220px;
 }
-
-
-
 

@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./scripts/style.css'>
 </head>
 <body>  
-    <form name="creacompte" action="./ajtCompte.php" method="post">
+    <form name="creacompte" action="./scripts/ajtCompte.php" method="post">
         <input type ="text" name="username" placeholder="Username">
         <input type ="password" name="pswd" placeholder="Password">
         <input type="submit">

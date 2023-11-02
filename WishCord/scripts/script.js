@@ -22,7 +22,7 @@ function EnvoyerMsg() {
 
     $.ajax({
 
-        url: 'http://localhost/DisChat/WishCord/StockMsg.php', //script à appeler
+        url: 'http://localhost/DisChat/WishCord/scripts/StockMsg.php', //script à appeler
         type: 'POST',
         data: 'Username=' + UsernameData + "&Message=" + MsgData,
         success: function (data, statut) {
@@ -38,7 +38,7 @@ function MajMsg(){
     //console.log("bonjour")
     let zone = document.getElementById("ZnChat");
     $.ajax({
-        url: 'http://localhost/DisChat/WishCord/RecupMsg.php',
+        url: 'http://localhost/DisChat/WishCord/scripts/RecupMsg.php',
         type: 'POST',
 
         success: function(data,statut){

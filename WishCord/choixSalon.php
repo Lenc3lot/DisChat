@@ -11,35 +11,31 @@
     <script src='./scripts/test.js'></script>
 </head>
 
-<body>
+<body onload="">
     <header>
     <?php 
-        if(isset($_COOKIE["usrnm"])){
-            echo "<h1> Bonjour ".$_COOKIE["usrnm"]."</h1>";
+        session_start();
         
     ?>
-    <ul id="menu">
+    <ul id="menu" style="color:black">
         <li><a href=#> Acceuil </a></li>
-        <?php if(!isset($_COOKIE["usrnm"])){ ?>
+        <?php if(!isset($_SESSION["usrnm"])){ ?>
             <li><a href=#>Créer un compte</a></li> 
             <li><a href="./connexionPage.php">Se Connecter</a></li>
             <?php } else { ?>
-        <li><a href="./killCookie.php">Déconnexion</a><li><?php } ?>
+        <li><a href="./scripts/killCookie.php">Déconnexion</a><li><?php } ?>
        
     </ul>
     </header>
 
+    <?php 
+    if(isset($_SESSION["usrnm"])){
+        echo "<h1> Bonjour ". $_SESSION["usrnm"] ."</h1>";
+    ?>
+
     <ul id="listeChan"> LISTE DES SALONS
     
-    <?php 
-    $listserv = "./salons/salons.json";
-    $data = file_get_contents($listserv);
-    $datas = json_decode($data,true);
-
-    foreach ($datas as $element) {
-        echo "<li> <a href = '".$element["chemin"]."'>".$element["nom"]."</a> </li>";
-    }   
-    ?>
+   <!-- Afficher les salons de l'utilisateur ICI -->
     
     <li onclick="AskChan()"> Rejoindre un salon </li>
     </ul> 

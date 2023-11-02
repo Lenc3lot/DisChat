@@ -14,3 +14,7 @@ function AskChan(){
         }
     })
 }
+
+function GetChanUser(user,opt=""){
+    
+}

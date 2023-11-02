@@ -1,4 +1,5 @@
 <?php
+
 $listuser = "./data/user.json";
 $a = "oS5_z!e*eD";
 $data = json_decode(file_get_contents($listuser),true);

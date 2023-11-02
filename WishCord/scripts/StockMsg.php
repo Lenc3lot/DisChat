@@ -6,7 +6,7 @@ $Message = $_POST["Message"];
 
 // echo serialize($Message);
 
-$file = "./Msg.txt";
+$file = "../Msg.txt";
 
 
 $time = time();
