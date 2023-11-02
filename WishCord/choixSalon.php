@@ -11,7 +11,7 @@
     <script src='./scripts/test.js'></script>
 </head>
 
-<body onload="">
+<body onload="GetChanUser()">
     <header>
     <?php 
         session_start();

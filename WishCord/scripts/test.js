@@ -15,6 +15,12 @@ function AskChan(){
     })
 }
 
-function GetChanUser(user,opt=""){
-    
+function GetChanUser(){
+    $.ajax({
+        url :'http://localhost/DisChat/WishCord/scripts/recupSalons.php',
+        type:'POST',
+        success: function(data,statut){
+            console.log(data);
+        }
+    })
 }
